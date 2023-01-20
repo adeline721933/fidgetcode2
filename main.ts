@@ -3,6 +3,41 @@ input.onButtonPressed(Button.A, function () {
         basic.showLeds(`
             . . . . .
             . . . . .
+            . # # # .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . # # . .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
             . # . # .
             . . # . .
             . . # . .
