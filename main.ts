@@ -1,9 +1,25 @@
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 4; index++) {
-        basic.showLeds(`
+    	
+    }
+    basic.showLeds(`
             . . . . .
             . . . . .
-            . # # # .
+            . . . . .
+            . . . . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
             . . # . .
             . . # . .
             `, 50)
@@ -17,28 +33,14 @@ basic.showLeds(`
 basic.showLeds(`
             . . . . .
             . . . . .
-            . . # . .
-            . . # . .
-            . . # . .
-            `, 50)
-basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . # . .
-            . . # . .
-            `, 50)
-basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . # . .
-            `, 50)
-basic.showLeds(`
-            . . . . .
-            . . . . .
             . # . # .
+            . . # . .
+            . . # . .
+            `, 50)
+basic.showLeds(`
+            . . . . .
+            . . . . .
+            . # # # .
             . . # . .
             . . # . .
             `, 50)
@@ -56,7 +58,6 @@ basic.showLeds(`
             . . # . .
             . . # . .
             `, 50)
-    }
 })
 input.onButtonPressed(Button.AB, function () {
     music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.OnceInBackground)
